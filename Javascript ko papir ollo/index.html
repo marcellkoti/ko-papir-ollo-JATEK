@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kő, papír, olló</title>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <h1>Kő papír olló</h1>
+<div class="main">
+
+<div class="oszlop eltartas">
+
+<div class="kep">
+    <img src="pic/ko.png" alt="ko" onclick="ko()">
+</div>
+
+<div class="kep">
+<img src="pic/papir.png" alt="papir" onclick="papir()">
+</div>
+
+<div class="kep">
+<img src="pic/ollo.png" alt="ollo" onclick="ollo()">
+</div>
+
+</div>
+
+<div class="oszlop">
+<h2>Computer</h2>
+<div class="computer">
+<img id="pckep" src="pic/egyben.png" alt="egyben">
+</div>
+
+<div class="nyertes">
+<div class="gomb">
+    <button type="button" id="jatekgomb" onclick="jatek(0,2)">JÁTÉK</button>
+</div>
+</div>
+<h2>Játékos</h2>
+<div class="jatekos">
+    <img src="pic/jatek.png" alt="jatek" id="jatekosvalasztasa">
+</div>
+
+<div class="lezaro"></div>
+</div>
+
+
+</div>
+
+<p id="teszt">
+
+</p>
+
+<script src="jatek.js"></script>
+</body>
+</html>

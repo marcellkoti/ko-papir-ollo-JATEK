@@ -1,0 +1,60 @@
+body{
+    background-color: antiquewhite;
+}
+
+.main{
+    width:1000px;
+    margin:15px auto;
+    
+}
+
+.kep, .computer,.jatekos{
+    margin:20px;
+    
+  width:300px;
+  height:300px;
+
+}
+.kep{
+    height:233px;
+}
+.nyertes{
+
+margin:20px;
+background-color: bisque;
+width: 300px;
+height:100px;
+
+}
+
+.oszlop{
+    float:left;
+}
+.lezaro{
+    clear:both;
+}
+
+.eltartas{
+    margin-right:300px;
+}
+img{
+  max-width:100%;
+  max-height:100%;
+  border: 2px solid rgb(91, 158, 91);
+  border-radius:25px ;
+  box-shadow: 5px 5px rgb(158, 150, 150);
+}
+button {
+    color: #ffffff;
+    background-color: #f1df1e;
+    font-size: 19px;
+    border: 1px solid #000000;
+    padding: 15px 50px;
+    cursor: pointer
+}
+button:hover {
+    color: #2d63c8;
+    background-color: #ffffff;
+}
+
+
